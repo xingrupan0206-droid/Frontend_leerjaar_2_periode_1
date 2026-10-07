@@ -1,0 +1,35 @@
+.pokemon {
+    width: 150px;
+    height: 150px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:#ff2200;
+
+    width: 100%;
+    padding: 0,5em;
+}   
+
+.HeaderName {
+    font-size: 130px;
+    margin-left:50px ;
+    /*style*/
+    font-family: 'Impact', 'Arial Black', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -2px; 
+    font-style: italic;
+    display: flex;
+    gap: 2px;
+    color: #FFDE00;
+    /**schaduw gedeelte**/
+    text-shadow: 
+    -3px -3px 0 #3B4CCA,  3px -3px 0 #3B4CCA, -3px  3px 0 #3B4CCA,  3px  3px 0 #3B4CCA,
+    -4px -4px 0 #3B4CCA,  4px -4px 0 #3B4CCA, -4px  4px 0 #3B4CCA,  4px  4px 0 #3B4CCA,
+    -6px  6px 0 #2A3A8A,  0px  8px 10px rgba(0,0,0,0.6);
+
+
+}
