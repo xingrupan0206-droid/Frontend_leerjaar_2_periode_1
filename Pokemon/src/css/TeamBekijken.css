@@ -1,0 +1,97 @@
+.saved-teams {
+    width: min(100% - 32px, 1000px);
+    margin: 32px auto;
+    color: #20243a;
+}
+
+.saved-teams__topline {
+    margin-bottom: 24px;
+}
+
+.saved-teams__topline h1 {
+    margin-bottom: 8px;
+    font-size: clamp(1.7rem, 4vw, 2.4rem);
+}
+
+.saved-teams__topline p {
+    color: #52586a;
+}
+
+.saved-teams__list,
+.saved-teams__pokemon-list {
+    display: grid;
+    gap: 12px;
+    list-style: none;
+}
+
+.saved-teams__item {
+    padding: 20px;
+    border: 1px solid #d4d9e5;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.saved-teams__item h2 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.saved-teams__item-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.saved-teams__remove-button {
+    padding: 8px 12px;
+    border: 0;
+    border-radius: 6px;
+    background: #d62828;
+    color: #fff;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.saved-teams__pokemon-list {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+}
+
+.saved-teams__pokemon {
+    padding: 10px 12px;
+    border: 1px solid #e0e3eb;
+    border-radius: 6px;
+    text-transform: capitalize;
+}
+
+.saved-teams__nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-top: 20px;
+}
+
+.saved-teams__button {
+    display: inline-block;
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 6px;
+    background: #ffcb05;
+    color: #20243a;
+    font: inherit;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+@media (max-width: 520px) {
+    .saved-teams__button {
+        min-height: 44px;
+    }
+
+    .saved-teams__remove-button {
+        min-height: 40px;
+    }
+}

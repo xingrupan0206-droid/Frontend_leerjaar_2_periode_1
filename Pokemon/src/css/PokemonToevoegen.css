@@ -1,0 +1,39 @@
+.pokemon-add-page {
+    width: min(100% - 32px, 1000px);
+    margin: 32px auto;
+    color: #20243a;
+}
+
+.pokemon-add-page__topline {
+    margin-bottom: 24px;
+}
+
+.pokemon-add-page__topline h1 {
+    margin-bottom: 8px;
+    font-size: clamp(1.7rem, 4vw, 2.4rem);
+}
+
+.pokemon-add-page__topline p {
+    margin-bottom: 8px;
+    color: #52586a;
+}
+
+.pokemon-add-page__count {
+    font-weight: 700;
+}
+
+.pokemon-add-page__nav {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.pokemon-add-page__back {
+    text-decoration: none;
+}
+
+@media (max-width: 520px) {
+    .pokemon-add-page__back {
+        min-height: 44px;
+    }
+}

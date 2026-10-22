@@ -10,8 +10,8 @@ function Home() {
       <div className="body">
         <img className='Profiel_foto' src={Profiel_foto} alt="Pokéball" />
         <div className="homeButtons">
-          <Link className='teammaken' to="/Teammaken">Team Aanmaken</Link>
-          <Link className="teambekijken" to="/Teambekijken">Gemaakte Team</Link>
+          <Link className='teammaken' to="/TeamMaken">Team Aanmaken</Link>
+          <Link className="teambekijken" to="/TeamBekijken">Gemaakte Team</Link>
         </div>
       </div>
     </>
